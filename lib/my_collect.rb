@@ -4,6 +4,8 @@ def my_collect(array)
   collection = []
   
   while i < array.length do
+    first_name = 
+    collection << yield(array[i])
   end
   
 end
