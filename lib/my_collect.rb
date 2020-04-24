@@ -5,7 +5,7 @@ def my_collect(array)
   
   while i < array.length do
     first_name = array[i].split(" ").first
-    collection << first_name
+    collection << yeild(first_name)
   end
   
 end
